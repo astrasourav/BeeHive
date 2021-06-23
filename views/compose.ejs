@@ -1,0 +1,17 @@
+<%- include ("partials/header") %>
+
+    <div class="container-fluid compose">
+        <h1>Compose</h1>
+        <form action="/compose" method="POST">
+
+            <label class="label-title">Title</label><br>
+            <input class="form-control blog-title" type="text" name="blogTitle"></input>
+
+            <label class="label-post">Post</label><br>
+            <textarea class="form-control blog-content" rows="5" name="blogBody"></textarea><br>
+            <button id="btn" type="submit" class="btn btn-primary">Publish</button>
+        </form>
+
+    </div>
+
+    <%- include ("partials/footer") %>
