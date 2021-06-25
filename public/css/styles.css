@@ -1,32 +1,32 @@
 html {
-    height: 100%;             /* for the page to take full window height */
-    box-sizing: border-box;   /* to have the footer displayed at the bottom of the page without scrolling */
+  height: 100%; /* for the page to take full window height */
+  box-sizing: border-box; /* to have the footer displayed at the bottom of the page without scrolling */
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;       /* enable the "border-box effect" everywhere */
+  box-sizing: inherit; /* enable the "border-box effect" everywhere */
 }
 
 body {
-    position: relative;        /* for the footer to move with the page size */
-    min-height: 100%;          /* for the footer to be at the bottom */
-    padding-bottom: 6rem;      /* Space available between last element and bottom border of the page */
+  position: relative; /* for the footer to move with the page size */
+  min-height: 100%; /* for the footer to be at the bottom */
+  padding-bottom: 6rem; /* Space available between last element and bottom border of the page */
 }
 
 .header {
   font-size: large;
   font-family: Open Sans;
-
 }
 
 .compose,
 .contact,
-.about {
+.about,
+.home,
+.post {
   padding: 5rem 10rem 0 10rem;
 }
-
 
 .footer {
   padding-top: 10px;
@@ -42,7 +42,9 @@ body {
 
 .contact,
 .about,
-.compose {
+.compose,
+.home,
+.post {
   font-family: Open Sans;
   size: 10rem;
 }
@@ -51,12 +53,12 @@ body {
 .connect-msg,
 .label-title,
 .label-post {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .about-img {
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
